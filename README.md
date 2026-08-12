@@ -17,9 +17,9 @@ Ce projet met en place une chaîne Big Data de traitement et d'analyse NoSQL des
 .
 ├── docker-compose.yml          # Configuration du conteneur Cassandra
 ├── schema.cql                  # Définition du Keyspace et des tables Cassandra
-├── Flight_delay.csv
+├── Flight_delay.csv            # Jeu de données 
 ├── process_flights.py          # Pipeline PySpark (lecture, transformation, écriture Cassandra)
 ├── app_viz.py                  # Dashboard Streamlit (Visualisation NoSQL)
-├── requirements.txt
-├── Rapport_Projet_BigData.docx           # Dépendances Python
+├── requirements.txt            # Dépendances Python
+├── Rapport_Projet_BigData.docx # Rapport de projet         
 └── README.md                   # Documentation du projet
