@@ -1,0 +1,15 @@
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra_db
+    ports:
+      - "9042:9042"
+    environment:
+      - CASSANDRA_CLUSTER_NAME=FlightCluster
+
+  spark:
+    image: apache/spark:latest
+    container_name: spark_master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
